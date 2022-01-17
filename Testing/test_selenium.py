@@ -113,7 +113,7 @@ password = driver.find_element_by_xpath("//input[@placeholder='Password']")
 text = "PASSWORD"
 slow_type(password, text)
 
-time.sleep(1)
+time.sleep(1.5)
 submit = driver.find_element_by_xpath("//input[@value='Login']")
 submit.click()
 time.sleep(1.5)
