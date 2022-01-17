@@ -13,7 +13,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 driver = webdriver.Chrome(executable_path="C:\selenium driver\chromedriver.exe")
 
-driver.get("https://dsce-connect-ruddy.vercel.app/")
+driver.get("https://dsce-connect-website.vercel.app/index.html")
 driver.maximize_window()
 a = ActionChains(driver)
 print(driver.title)
