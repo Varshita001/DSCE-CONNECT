@@ -40,7 +40,7 @@ def slow_type(element: WebElement, text: str, delay: float=0.2):
         element.send_keys(character)
         time.sleep(delay)
 
-f = open("C:\Projects\DSCE-CONNECT\DSCE-CONNECT\Testing\Results.txt", "a")
+#f = open("C:\Projects\DSCE-CONNECT\DSCE-CONNECT\Testing\Results.txt", "a") #
 i=2
 for r in range(2,rows+1):
     username=XLUtils.readData(path,'Sheet1',r,1)
